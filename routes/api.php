@@ -27,5 +27,6 @@ $api->version('v1', [
 
     $api->get('/categories', 'CategoriesController@index');
     $api->get('/categories/{id}/products', 'CategoriesController@products');
+    $api->get('/introduces/1', 'IntroducesController@show');
 
 });

@@ -15,6 +15,7 @@ class CreateIntroducesTable extends Migration
     {
         Schema::create('introduces', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->text('description')->comment('描述');
             $table->timestamps();
         });
     }
