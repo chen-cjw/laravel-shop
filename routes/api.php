@@ -16,3 +16,16 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+$api = app('Dingo\Api\Routing\Router');
+
+$api->version('v1', [
+    'namespace' => 'App\Http\Controllers\Api',
+    'middleware' => ['serializer:array']
+], function ($api) {
+    $api->get('/products', 'ProductsController@index');
+    $api->get('/products/{product}', 'ProductsController@show');
+
+    $api->get('/categories', 'CategoriesController@index');
+    $api->get('/categories/{id}/products', 'CategoriesController@products');
+
+});

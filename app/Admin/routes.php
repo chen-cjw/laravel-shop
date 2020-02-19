@@ -6,10 +6,13 @@ Admin::routes();
 
 Route::group([
     'prefix'        => config('admin.route.prefix'),
+    'domain'        => config('admin.route.domain'),
     'namespace'     => config('admin.route.namespace'),
     'middleware'    => config('admin.route.middleware'),
 ], function (Router $router) {
 
     $router->get('/', 'HomeController@index')->name('admin.home');
+    $router->resource('/categories', 'CategoriesController');
+    $router->resource('/products', 'ProductsController');
 
 });
