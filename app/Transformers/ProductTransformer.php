@@ -18,9 +18,8 @@ class ProductTransformer extends TransformerAbstract
             'stock' => $product->stock,
             'rating' => $product->rating,
             'sold_count' => $product->sold_count,
+            'price' => $product->price,
             'review_count' => $product->review_count,
-            'set_price' => $product->set_price,
-            'sale_price' => $product->sale_price,
             'created_at' => $product->created_at->toDateTimeString(),
             'updated_at' => $product->updated_at->toDateTimeString(),
         ];
@@ -28,6 +27,6 @@ class ProductTransformer extends TransformerAbstract
 
     public function includeSkus(Product $product)
     {
-        return $this->item($product->skus, new ProductSkuTransformer());
+        return $this->collection($product->skus, new ProductSkuTransformer());
     }
 }

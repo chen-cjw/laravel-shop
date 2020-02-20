@@ -10,7 +10,7 @@ class CategoryTransformer extends TransformerAbstract
         return [
             'id' => $product->id,
             'title' => $product->title,
-            'sort_num' => $product->description,
+            'sort_num' => $product->sort_num,
             'on_sale' => $product->on_sale,
             'created_at' => $product->created_at->toDateTimeString(),
             'updated_at' => $product->updated_at->toDateTimeString(),

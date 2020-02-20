@@ -113,8 +113,6 @@ class ProductsController extends AdminController
 
         $form->number('stock', __('库存'));
         $form->number('sold_count', __('销量'));
-        $form->decimal('set_price', __('定价'))->default(0);
-        $form->decimal('sale_price', __('打折价格'))->default(0);
         $form->decimal('rating', __('评分'))->default(5.00);
 
         // 直接添加一对多的关联模型
