@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d847d5a-e76e-43cb-b4fd-fdcd4a090359" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Models/Introduce.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Introduce.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/IntroduceFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/IntroduceFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,11 +61,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminTablesSeeder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/seeds/AdminTablesSeeder.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="CategoriesSeeder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/seeds/CategoriesSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -85,11 +79,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IntroduceFactory.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IntroduceFactory.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/factories/IntroduceFactory.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="16" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -176,10 +179,10 @@
         <option value="$PROJECT_DIR$/database/migrations/2020_02_17_103936_create_products_table.php" />
         <option value="$PROJECT_DIR$/database/factories/ProductFactory.php" />
         <option value="$PROJECT_DIR$/app/Transformers/ProductTransformer.php" />
-        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/IntroducesSeeder.php" />
         <option value="$PROJECT_DIR$/app/Models/Introduce.php" />
         <option value="$PROJECT_DIR$/database/factories/IntroduceFactory.php" />
+        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
       </list>
     </option>
   </component>
@@ -466,12 +469,12 @@
       <option name="presentableId" value="Default" />
       <updated>1581342449301</updated>
       <workItem from="1581342452582" duration="2501000" />
-      <workItem from="1581743164262" duration="29778000" />
+      <workItem from="1581743164262" duration="30001000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32279000" />
+    <option name="totallyTimeSpent" value="32502000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -492,9 +495,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3927273" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3927273" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -818,13 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/AdminTablesSeeder.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -888,6 +884,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
