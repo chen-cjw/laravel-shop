@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d847d5a-e76e-43cb-b4fd-fdcd4a090359" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Admin/Controllers/ProductsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Controllers/ProductsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Introduce.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Introduce.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/ProductSku.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/ProductSku.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Transformers/CategoryTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Transformers/CategoryTransformer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Transformers/ProductSkuTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Transformers/ProductSkuTransformer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Transformers/ProductTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Transformers/ProductTransformer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/CategoriesFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/CategoriesFactory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/factories/IntroduceFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/IntroduceFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/ProductFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ProductFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/ProductSkuFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ProductSkuFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_17_103936_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_17_103936_create_products_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,32 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProductFactory.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/factories/ProductFactory.php">
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="17" column="26" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductTransformer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Transformers/ProductTransformer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-              <folding>
-                <element signature="e#34#57#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="195">
+              <caret line="13" column="12" lean-forward="true" selection-end-line="58" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -61,17 +29,26 @@
       <file leaf-file-name="IntroducesSeeder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/seeds/IntroducesSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+            <state relative-caret-position="225">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Introduce.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IntroducesController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/IntroducesController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Introduce.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Models/Introduce.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -94,28 +71,34 @@
         <entry file="file://$PROJECT_DIR$/database/seeds/CategoriesSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" selection-start-line="13" selection-end-line="14" />
+              <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CategoryTransformer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Transformers/CategoryTransformer.php">
+      <file leaf-file-name="Categories.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/Categories.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-              <folding>
-                <element signature="e#34#60#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2020_02_17_103936_create_products_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_17_103936_create_products_table.php">
+      <file leaf-file-name="IntroduceFactory.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/factories/IntroduceFactory.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+            <state relative-caret-position="60">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CategoriesFactory.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/factories/CategoriesFactory.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -140,6 +123,7 @@
       <find>review_count</find>
       <find>sort_num</find>
       <find>skus</find>
+      <find>description</find>
     </findStrings>
     <replaceStrings>
       <replace>id,</replace>
@@ -180,7 +164,6 @@
         <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/app/Admin/Controllers/IntroducesController.php" />
         <option value="$PROJECT_DIR$/database/seeds/CategoriesSeeder.php" />
-        <option value="$PROJECT_DIR$/database/factories/IntroduceFactory.php" />
         <option value="$PROJECT_DIR$/app/Admin/Controllers/ProductsController.php" />
         <option value="$PROJECT_DIR$/app/Models/Product.php" />
         <option value="$PROJECT_DIR$/app/Models/ProductSku.php" />
@@ -196,6 +179,7 @@
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/IntroducesSeeder.php" />
         <option value="$PROJECT_DIR$/app/Models/Introduce.php" />
+        <option value="$PROJECT_DIR$/database/factories/IntroduceFactory.php" />
       </list>
     </option>
   </component>
@@ -482,12 +466,12 @@
       <option name="presentableId" value="Default" />
       <updated>1581342449301</updated>
       <workItem from="1581342452582" duration="2501000" />
-      <workItem from="1581743164262" duration="28488000" />
+      <workItem from="1581743164262" duration="29778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30989000" />
+    <option name="totallyTimeSpent" value="32279000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -508,9 +492,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3927273" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3927273" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -653,13 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -728,13 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/IntroducesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -742,13 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="25" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/IntroduceFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -787,20 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Categories.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/CategoriesFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -882,7 +831,42 @@
     <entry file="file://$PROJECT_DIR$/database/seeds/CategoriesSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="14" />
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Categories.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/IntroducesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="12" lean-forward="true" selection-end-line="58" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/IntroducesSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Introduce.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -893,17 +877,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/IntroducesSeeder.php">
+    <entry file="file://$PROJECT_DIR$/database/factories/CategoriesFactory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        <state relative-caret-position="510">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Introduce.php">
+    <entry file="file://$PROJECT_DIR$/database/factories/IntroduceFactory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        <state relative-caret-position="60">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>

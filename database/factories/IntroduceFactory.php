@@ -2,10 +2,10 @@
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
 
-use App\Models\introduce;
+use App\Models\Introduce;
 use Faker\Generator as Faker;
 
-$factory->define(introduce::class, function (Faker $faker) {
+$factory->define(Introduce::class, function (Faker $faker) {
     return [
         'description' => '安装 Intervention/image 扩展包找不到资源
  问答 /  502 /  2 / 发布于 3个月前
